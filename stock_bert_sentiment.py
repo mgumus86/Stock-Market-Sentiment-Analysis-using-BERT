@@ -28,7 +28,7 @@ price_df = price_df.rename(columns={"date_": "date"})
 # -----
 
 # Setup client
-api_key = 'd0c55f9r01qs9fjklatgd0c55f9r01qs9fjklau0'
+api_key = 'API_KEY'
 finnhub_client = finnhub.Client(api_key=api_key)
 
 symbol = 'TSLA'
